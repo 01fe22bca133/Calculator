@@ -29,17 +29,13 @@ class Calculator extends Child
 
    
 
- Scanner sc= new Scanner(System.in);
- System.out.println("ENTER THE OPERAND 1");
- int operand_1=sc.nextInt();
- System.out.println("ENTER THE OPERAND 2");
- int operand_2=sc.nextInt();
+ 
 
  
  float add_result=calc.addition(operand_1,operand_2);
  System.out.println("result of subtraction is:"+add_result);
 
-            float sub_result=calc.subtraction(operand_1,operand_2);
+    float sub_result=calc.subtraction(operand_1,operand_2);
     System.out.println("result of subtraction is:"+sub_result);
 
     float mul_result=calc.multiplication(operand_1,operand_2);
